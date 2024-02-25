@@ -1,0 +1,35 @@
+ body{
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+h1 {
+    color: rgb(2, 2, 139) ;
+    font-family: sans-serif;
+   margin-left: 150px;
+   font-size: 50px;
+}
+.chessboard{
+
+    border: 18px solid rgb(92, 91, 91);
+    width: 60%;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chessboard div{
+   width: 10%;
+   height: 80px;
+   width: calc(100%/8);
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 2px 1px white;
+}
+
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+
